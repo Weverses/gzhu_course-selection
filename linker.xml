@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<linker>
+  <assembly fullname="System.Text.Json">
+    <type fullname="System.Text.Json.JsonSerializerOptions" preserve="all" />
+    <type fullname="System.Text.Json.JsonSerializer" preserve="all" />
+  </assembly>
+  <assembly fullname="Microsoft.Playwright">
+    <type fullname="Microsoft.Playwright.Playwright" preserve="all" />
+  </assembly>
+</linker>
